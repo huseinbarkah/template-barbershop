@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gold-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C7A76C" />
+      <stop offset="50%" stop-color="#E5C78B" />
+      <stop offset="100%" stop-color="#8F6E42" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Ring -->
+  <circle cx="200" cy="200" r="180" fill="none" stroke="url(#gold-gradient)" stroke-width="8" />
+  <circle cx="200" cy="200" r="165" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.3" />
+  
+  <!-- Monogram N -->
+  <path d="M120 280 V120 L160 120 L240 220 V120 H280 V280 H240 L160 180 V280 Z" fill="#FFFFFF" />
+  
+  <!-- Scissors Motif -->
+  <g stroke="url(#gold-gradient)" stroke-width="6" stroke-linecap="round" fill="none">
+    <!-- Blades crossing through the N -->
+    <path d="M140 260 L260 140" />
+    <path d="M140 140 L260 260" />
+  </g>
+  
+  <!-- Scissor Handles (Rings) -->
+  <circle cx="125" cy="275" r="20" fill="none" stroke="url(#gold-gradient)" stroke-width="8" />
+  <circle cx="275" cy="275" r="20" fill="none" stroke="url(#gold-gradient)" stroke-width="8" />
+
+  <!-- Scissor Screw -->
+  <circle cx="200" cy="200" r="8" fill="url(#gold-gradient)" />
+</svg>
